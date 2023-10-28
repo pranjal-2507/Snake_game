@@ -1,0 +1,112 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=IBM+Plex+Mono:wght@500&family=Poppins&family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    /* height: auto; */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pxfuel.jpg");
+    background-size: 0px 100px 0px 100px ;
+    padding-bottom: 0px;
+    
+}
+.board{
+    border: 2px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left,rgb(61, 132, 61) ,rgb(171, 226, 248));
+    width: 900px;
+    height: 670px;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr); 
+    
+}
+
+#scoreBox{
+    top: 9px;
+    right: 75px;
+    font-size: 39px;
+    
+    font-family:cursive;
+    color: white;
+}
+#hiscoreBox{
+    top: 59px;
+    right: 70px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family:cursive;
+    color: white;
+}
+.head{
+    
+    background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+    border: 2px solid rgb(34, 4, 34); 
+    transform: scale(1.02);
+    border-radius: 9px;
+}
+.food{
+    background: linear-gradient(red, purple);
+    border: .25vmin solid black;
+    border-radius: 60%;
+}
+.snake{
+    background-color: purple;
+    border: .25vmin solid white;
+    border-radius: 12px;
+}
+
+#text{
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    top: 59px;
+    left: 30px;
+
+
+}
+.button1{
+    padding: 3px;
+    width: 100px;
+    height: 30px;
+    top: 135px;
+    left: 30px;
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.button1:hover{
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 40px , 40px , gold;
+}
+
+
+footer{
+    width: 100%;
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+}
+
+#cont-1{
+    display: flex;
+    height: 670px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    /* align-items: flex-start; */
+    padding-right: 50px;
+}
